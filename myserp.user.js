@@ -30,6 +30,6 @@ if (modifyFlag) {
   
   var objJS = document.createElement('script');
   objJS.type = 'text/javascript';
-  objJS.src = 'http://jeremyhubert.com/playground/msp/loader.js?flag=' + modifyFlag;
+  objJS.src = 'http://jeremyhubert.com/playground/msp/loader.php?flag=' + modifyFlag;
   objHead.appendChild(objJS);
 }
